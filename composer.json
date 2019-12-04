@@ -1,0 +1,35 @@
+{
+    "name": "marussia/pagination",
+    "description": "Marussia page pagination",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "pagination"
+    ],
+    "authors": [
+        {
+            "name": "Mikhail Ilinsky",
+            "email": "mail@milinsky.ru"
+        }
+    ],
+    "support": {
+        "docs": "https://docs.marussia.org/pagination/"
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Marussia\\Pagination\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Marussia\\Pagination\\Test\\": ["tests/"]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
